@@ -1,0 +1,85 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+
+.map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-title{
+  text-align: center;
+}
+
+#map {
+  width: 50%;
+  height: 400px;
+}
+
+.background-inicio {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/autumn-1758194.jpg");
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.background-inicio div{
+
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 0 100px;
+}
+
+.background-lista-motos {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/fondo-de-wall-street-del-ladrillo-para-el-diseño-textura-del-brickwor-viejo-87506262.jpg");
+  background-size: 100%;
+
+}
+
+.background-perfil {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/parking-deck-438415_1920.jpg");
+  background-size: 100%;
+  
+
+}
+
+.background-admin {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/hipertextual-universo-marvel-abriria-sus-puertas-ghost-rider-2020426989-scaled.jpg");
+  background-size: 100%;
+
+}
+
+
+
+
+#imgmoto {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container-custom {
+  margin-right: 10%;
+}
+
+#imgrouts {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+

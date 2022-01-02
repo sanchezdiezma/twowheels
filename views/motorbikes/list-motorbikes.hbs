@@ -1,0 +1,41 @@
+<div class="background-lista-motos">
+
+
+<div class="container coasters-index">
+
+    <a href="/motorbikes/new" class="btn btn-dark">Crear nueva moto</a>
+
+    <h1 style="font-weight: 100">Listado de motos</h1>
+
+
+    <!-- ***** CREA UNA FICHA DE LISTA POR CADA MOTO **** -->
+    <ul>
+        {{#each motorbikes}}
+
+        <li> <b> Modelo de moto:</b> {{name}}
+            {{imageURL}}
+            <b>Tipo de moto:</b> {{typesMotorbike}}
+            <b>Detalles:</b>
+            {{description}}<b> Marca:</b>
+            {{brand}} <b>Cilindrada:</b> {{cc}} cc
+            <b>Peso:</b>
+            {{weight}} Kg <b> Foto moto:</b>
+             <b> Tipo de permiso:</b>
+            {{license}}
+        </li>
+
+        <a href="/motorbikes/{{id}}"> detalles</a>
+        
+
+
+        {{/each}}
+    </ul>
+
+    <a href="/" class="btn btn-dark">Volver</a>
+
+
+
+
+
+</div>
+</div>
